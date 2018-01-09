@@ -6,6 +6,8 @@
 
 ## 检测(Detection)
 ##### (+)DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
+##### (++)肺部CT图像病变区域检测方法
+##### (+)基于定量影像组学的肺肿瘤良恶性预测方法
 
 ## 增强(enhance)
 ### 超分(SR)
