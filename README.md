@@ -13,3 +13,8 @@
 ### 超分(SR)
 ##### (+++)Image Super-Resolution Using Deep Convolutional Networks
 ##### (+++)Deeply-Recursive Convolutional Network for Image Super-Resolution
+
+## 医学报告生成(medical report)
+### CNN+LSTN
+#### (+++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays
+#### (+++)On the Automatic Generation of Medical Imaging Reports
