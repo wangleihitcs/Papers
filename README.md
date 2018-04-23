@@ -20,4 +20,4 @@
 		* (+++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays
 		* (+++)On the Automatic Generation of Medical Imaging Reports
 * 图像描述生成(caption generation)
-	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention((code)ss[https://github.com/kelvinxu/arctic-captions])
+	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention((code)[https://github.com/kelvinxu/arctic-captions])
