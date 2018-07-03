@@ -1,6 +1,5 @@
 # 简介
 本人陆续读的一些论文，图像处理相关，深度学习方法。
-$ \frac{7x+5}{1+y^2} $
 
 ## 经典任务
 * 检测(detection)
@@ -18,7 +17,8 @@ $ \frac{7x+5}{1+y^2} $
 ## 生成文字类任务
 * 医学报告生成(medical report generation)
 	* CNN+LSTN
-		* (+++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays
-		* (+++)On the Automatic Generation of Medical Imaging Reports
+		* (+++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, 2018 CVPR
+		* (+++)On the Automatic Generation of Medical Imaging Reports, 2018 ACL
+		* (++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
 * 图像描述生成(caption generation)
 	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention([code](https://github.com/kelvinxu/arctic-captions))
