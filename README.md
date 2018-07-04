@@ -11,7 +11,7 @@
 		* (+++)Image Super-Resolution Using Deep Convolutional Networks
 		* (+++)Deeply-Recursive Convolutional Network for Image Super-Resolution
 * 分割(segmentation)
-	* (++++)U-Net: Convolutional Networks for Biomedical Image Segmentation
+	* (++++)U-Net: Convolutional Networks for Biomedical Image Segmentation, 2015 MICCAI
 	* (+)A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
 ## 生成文字类任务
@@ -20,5 +20,7 @@
 		* (+++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, 2018 CVPR
 		* (+++)On the Automatic Generation of Medical Imaging Reports, 2018 ACL
 		* (++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
-* 图像描述生成(caption generation)
-	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention([code](https://github.com/kelvinxu/arctic-captions))
+* 图像描述生成(caption)
+	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, 2017 ICML([code](https://github.com/kelvinxu/arctic-captions))
+	* Show and Tell A Neural Image Caption Generator, 2015 CVPR
+	* Areas of Attention for Image Captioning, 2017 ICCV
