@@ -22,5 +22,6 @@
 		* (++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
 * 图像描述生成(caption)
 	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, 2017 ICML([code](https://github.com/kelvinxu/arctic-captions))
-	* Show and Tell A Neural Image Caption Generator, 2015 CVPR
+	* Show and Tell: A Neural Image Caption Generator, 2015 CVPR
+	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, 2016 PAMI([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
 	* Areas of Attention for Image Captioning, 2017 ICCV
