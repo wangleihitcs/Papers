@@ -25,3 +25,5 @@
 	* Show and Tell: A Neural Image Caption Generator, 2015 CVPR
 	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, 2016 PAMI([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
 	* Areas of Attention for Image Captioning, 2017 ICCV
+* 图像问答(visual question answering)
+	* Multi-level Attention Networks for Visual Question Answering, 2017 CVPR
