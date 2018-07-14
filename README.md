@@ -17,19 +17,19 @@
 ## 生成文字类任务
 * 医学报告生成(medical report generation)
 	* CNN-RNN
-		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, 2018 CVPR
-		* (+++)On the Automatic Generation of Medical Imaging Reports, 2018 ACL
+		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018
+		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018
 		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
 
 * 图像描述生成(caption)
 	* CNN-RNN
-		* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, 2017 ICML([code](https://github.com/kelvinxu/arctic-captions))
-		* Show and Tell: A Neural Image Caption Generator, 2015 CVPR
-		* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, 2016 PAMI([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
-		* Areas of Attention for Image Captioning, 2017 ICCV
+		* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2017([code](https://github.com/kelvinxu/arctic-captions))
+		* Show and Tell: A Neural Image Caption Generator, CVPR 2015
+		* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
+		* Areas of Attention for Image Captioning, ICCV 2017
 	* CNN-CNN
-		* Convolutional Image Captioning, 2018 CVPR
+		* Convolutional Image Captioning, CVPR 2018 
 
 * 图像问答(visual question answering)
 	* CNN-RNN
-		* Multi-level Attention Networks for Visual Question Answering, 2017 CVPR
+		* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
