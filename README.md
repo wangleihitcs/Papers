@@ -28,7 +28,7 @@
 		* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
 		* Areas of Attention for Image Captioning, ICCV 2017
 	* CNN-CNN
-		* Convolutional Image Captioning, CVPR 2018 
+		* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
 
 * 图像问答(visual question answering)
 	* CNN-RNN
