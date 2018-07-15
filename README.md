@@ -1,6 +1,12 @@
 # 简介
 本人陆续读的一些论文，图像处理相关，侧重于医学报告生成。
 
+## 基本知识
+* RNN
+	* [Recurrent Neural Networks in Tensorflow I](https://r2rt.com/recurrent-neural-networks-in-tensorflow-i.html)
+	* [Recurrent Neural Networks in Tensorflow II](https://r2rt.com/recurrent-neural-networks-in-tensorflow-ii.html)
+	* [Recurrent Neural Networks in Tensorflow III](https://r2rt.com/recurrent-neural-networks-in-tensorflow-iii-variable-length-sequences.html)
+
 ## 经典任务
 * 检测(detection)
 	* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
