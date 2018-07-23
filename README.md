@@ -34,17 +34,25 @@
 		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
 
 * 图像描述生成(caption)
-	* CNN-RNN
-		* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2017([code](https://github.com/kelvinxu/arctic-captions))
-		* Show and Tell: A Neural Image Caption Generator, CVPR 2015
-		* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
-		* Areas of Attention for Image Captioning, ICCV 2017
-	* CNN-CNN
-		* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
+	* Image Caption
+		* CNN-RNN
+			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2017([code](https://github.com/kelvinxu/arctic-captions))
+			* Show and Tell: A Neural Image Caption Generator, CVPR 2015
+			* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
+			* Areas of Attention for Image Captioning, ICCV 2017
+		* CNN-CNN
+			* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
+	* Video Caption
+		* CNN-RNN
+			* End-to-End Video Captioning with Multitask Reinforcement Learning
 
 * 图像问答(visual question answering)
-	* CNN-RNN
-		* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
+	* Image Question Answering
+		* CNN-RNN
+			* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
+	* Video Question Answering
+		* CNN-RNN
+			* Motion-Appearance Co-Memory Networks for Video Question Answering
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
