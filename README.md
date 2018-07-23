@@ -33,10 +33,10 @@
 		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018
 		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
 
-* 图像描述生成(caption)
+* 视觉描述生成(caption)
 	* Image Caption
 		* CNN-RNN
-			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2017([code](https://github.com/kelvinxu/arctic-captions))
+			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015([code](https://github.com/kelvinxu/arctic-captions))
 			* Show and Tell: A Neural Image Caption Generator, CVPR 2015
 			* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
 			* Areas of Attention for Image Captioning, ICCV 2017
@@ -46,7 +46,7 @@
 		* CNN-RNN
 			* End-to-End Video Captioning with Multitask Reinforcement Learning
 
-* 图像问答(visual question answering)
+* 视觉问答(visual question answering)
 	* Image Question Answering
 		* CNN-RNN
 			* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
