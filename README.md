@@ -52,7 +52,7 @@
 			* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
 	* Video Question Answering
 		* CNN-RNN
-			* Motion-Appearance Co-Memory Networks for Video Question Answering
+			* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
