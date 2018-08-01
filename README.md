@@ -40,6 +40,8 @@
 			* Show and Tell: A Neural Image Caption Generator, CVPR 2015
 			* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
 			* Areas of Attention for Image Captioning, ICCV 2017
+			* (+++)Rethinking the Form of Latent States in Image Captioning, ECCV 2018
+			
 		* CNN-CNN
 			* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
 	* Video Caption
