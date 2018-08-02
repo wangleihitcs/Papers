@@ -44,14 +44,17 @@
 			
 		* CNN-CNN
 			* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
+
 	* Video Caption
 		* CNN-RNN
 			* End-to-End Video Captioning with Multitask Reinforcement Learning
+			* Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018
 
 * 视觉问答(visual question answering)
 	* Image Question Answering
 		* CNN-RNN
 			* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
+	
 	* Video Question Answering
 		* CNN-RNN
 			* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
