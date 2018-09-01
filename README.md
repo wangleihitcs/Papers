@@ -62,3 +62,6 @@
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
 * Generative Adversarial Nets, NIPS 2016
+
+## 医学数据集(medical datasets)
+* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
