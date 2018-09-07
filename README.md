@@ -58,6 +58,7 @@
 	* Video Question Answering
 		* CNN-RNN
 			* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
+			* (++)Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
