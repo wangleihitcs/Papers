@@ -29,9 +29,10 @@
 ## 生成文字类任务
 * 医学报告生成(medical report generation)
 	* CNN-RNN
+		* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
 		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018
 		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018
-		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation
+		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018
 
 * 视觉描述生成(caption)
 	* Image Caption
