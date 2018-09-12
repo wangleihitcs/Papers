@@ -61,6 +61,10 @@
 			* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 			* (++)Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
 
+* 图像段落描述(image description paragraph)
+	* CNN-RNN
+		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[code](https://github.com/metro-smiles/CapG_RevG_Code)
+
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
 * Generative Adversarial Nets, NIPS 2016
