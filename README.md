@@ -64,6 +64,7 @@
 * 图像段落描述(image description paragraph)
 	* CNN-RNN
 		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
+		* A hierarchical approach for generating descriptive image paragraphs, CVPR 2017[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
