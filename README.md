@@ -36,6 +36,8 @@
 		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018
 		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018
 		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018
+	* Other
+		* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
 
 * 视觉描述生成(caption)
 	* Image Caption
@@ -67,7 +69,7 @@
 * 图像段落描述(image description paragraph)
 	* CNN-RNN
 		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
-		* A hierarchical approach for generating descriptive image paragraphs, CVPR 2017[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
+		* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
