@@ -14,13 +14,18 @@
 		* [Recurrent Neural Networks in Tensorflow III](https://r2rt.com/recurrent-neural-networks-in-tensorflow-iii-variable-length-sequences.html)
 
 ## 医学数据集(medical datasets)
-* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
+* NIH Chest X-Ray([download link])(https://nihcc.app.box.com/v/ChestXray-NIHCC)
+	* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
 
 ## 经典任务
 * 检测(detection)
-	* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
-	* 肺部CT图像病变区域检测方法
-	* 基于定量影像组学的肺肿瘤良恶性预测方法
+	* 医学图像
+		* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
+		* 肺部CT图像病变区域检测方法
+		* 基于定量影像组学的肺肿瘤良恶性预测方法
+	* 自然图像
+		* You Only Look Once- Unified, Real-Time Object Detection, CVPR 2016
+
 * 增强(enhace)
 	* 超分(super resolution)
 		* Image Super-Resolution Using Deep Convolutional Networks
