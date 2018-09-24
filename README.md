@@ -56,6 +56,9 @@
 		* CNN-CNN
 			* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
 
+		* Reinforcement Learning
+			* Improving Reinforcement Learning Based Image Captioning with Natural Language Prior, 2018
+
 	* Video Caption
 		* CNN-RNN
 			* End-to-End Video Captioning with Multitask Reinforcement Learning
