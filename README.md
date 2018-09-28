@@ -13,11 +13,14 @@
 		* [Recurrent Neural Networks in Tensorflow II](https://r2rt.com/recurrent-neural-networks-in-tensorflow-ii.html)
 		* [Recurrent Neural Networks in Tensorflow III](https://r2rt.com/recurrent-neural-networks-in-tensorflow-iii-variable-length-sequences.html)
 
-## 医学数据集(medical datasets)
+## 医学数据集(medical dataset)
 * NIH Chest X-Ray([download link])(https://nihcc.app.box.com/v/ChestXray-NIHCC)
 	* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
 
 ## 经典任务
+* 分类(classification)
+	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
+	
 * 检测(detection)
 	* 医学图像
 		* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
