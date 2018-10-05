@@ -41,18 +41,19 @@
 * 医学报告生成(medical report generation)
 	* CNN-RNN
 		* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
-		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018
-		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018
-		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018
+		* (++++)TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
+		* (+++)On the Automatic Generation of Medical Imaging Reports, ACL 2018[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
+	* Reinforcement Learning
+		* (+++)Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
 	* Other
 		* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
 
 * 视觉描述生成(captioning)
 	* Image Caption
 		* CNN-RNN
-			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015([code](https://github.com/kelvinxu/arctic-captions))
+			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015[(code)](https://github.com/kelvinxu/arctic-captions)
 			* Show and Tell: A Neural Image Caption Generator, CVPR 2015
-			* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016([code](https://github.com/tensorflow/models/tree/master/research/im2txt))
+			* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016[(code)](https://github.com/tensorflow/models/tree/master/research/im2txt)
 			* Areas of Attention for Image Captioning, ICCV 2017
 			* (+)Rethinking the Form of Latent States in Image Captioning, ECCV 2018, CUHK
 			* Recurrent Fusion Network for Image Captioning, ECCV 2018, Tencent AI Lab, 复旦
