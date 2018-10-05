@@ -47,7 +47,7 @@
 	* Other
 		* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
 
-* 视觉描述生成(caption)
+* 视觉描述生成(captioning)
 	* Image Caption
 		* CNN-RNN
 			* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015([code](https://github.com/kelvinxu/arctic-captions))
@@ -68,6 +68,11 @@
 			* End-to-End Video Captioning with Multitask Reinforcement Learning
 			* (+)Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018, CUHK
 
+* 视觉段落描述生成(visual paragraph description generation)
+	* CNN-RNN
+		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
+		* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(homepage)](https://cs.stanford.edu/people/ranjaykrishna/im2p/index.html)[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
+
 * 视觉问答(visual question answering)
 	* Image Question Answering
 		* CNN-RNN
@@ -78,10 +83,7 @@
 			* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 			* (++)Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
 
-* 图像段落描述(image description paragraph)
-	* CNN-RNN
-		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
-		* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
+
 
 ## 其它(others)
 * Talk the Walk- Navigating New York City through Grounded Dialogue
