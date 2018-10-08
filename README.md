@@ -72,6 +72,7 @@
 
 * 视觉段落描述生成(visual paragraph description generation)
 	* CNN-RNN
+		* DenseCap: Fully Convolutional Localization Networks for Dense Captioning, CVPR 2016, Standford[(homepage)](https://cs.stanford.edu/people/karpathy/densecap/)[(code)](https://github.com/jcjohnson/densecap)
 		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
 		* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(homepage)](https://cs.stanford.edu/people/ranjaykrishna/im2p/index.html)[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
 
