@@ -44,8 +44,10 @@
 		* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
 		* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
 		* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
+
 	* Reinforcement Learning
 		* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
+		
 	* Other
 		* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
 
@@ -73,8 +75,10 @@
 * 视觉段落描述生成(visual paragraph description generation)
 	* CNN-RNN
 		* DenseCap: Fully Convolutional Localization Networks for Dense Captioning, CVPR 2016, Standford[(homepage)](https://cs.stanford.edu/people/karpathy/densecap/)[(code)](https://github.com/jcjohnson/densecap)
-		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
 		* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(homepage)](https://cs.stanford.edu/people/ranjaykrishna/im2p/index.html)[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
+		* Recurrent Topic-Transition GAN for Visual Paragraph Generation, ICCV 2017
+		* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
+		
 
 * 视觉问答(visual question answering)
 	* Image Question Answering
