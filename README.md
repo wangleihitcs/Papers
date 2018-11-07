@@ -1,6 +1,6 @@
 # Intro
 Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
-- [Image/Video Captioning](#Image&#47Video-Captioning)
+- [Image/Video Captioning](#Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
@@ -9,7 +9,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - [Natural Image Tasks](#Natural-Image-Tasks)
 
 ## Papers and Codes/Notes
-### Image&#47Video Captioning
+### <div id="Captioning">Image/Video Captioning</div>
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
 	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
