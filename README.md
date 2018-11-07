@@ -1,6 +1,6 @@
 # Intro
 Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
-- [Image/Video Captioning](#image/video-captioning)
+- [Image/Video Captioning](#Image/Video-Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
