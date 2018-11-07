@@ -1,5 +1,29 @@
-# 简介
-本人陆续读的一些论文，图像处理相关，侧重于医学报告生成。
+# Intro
+Combine CV with NLP tasks，place emphasis on Image/Video Captioning、Paragraph Description Generation and Medical Report Generation.
+- [Image/Video Captioning](#image/video-captioning)
+- [Paragraph Description Generation](#Paragraph-Description-Generation)
+
+# Papers and Codes/Notes
+### Image/Video Captioning
+- CNN-RNN
+	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
+	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
+	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
+	* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
+	* End-to-End Video Captioning with Multitask Reinforcement Learning
+	* Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018, CUHK
+
+- CNN-CNN
+	* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
+
+- Reinforcement Learning
+	* Improving Reinforcement Learning Based Image Captioning with Natural Language Prior, 2018 
+
+- Others
+	* A Neural Compositional Paradigm for Image Captioning, NIPS 2018, CUHK
+
+### Paragraph Description Generation
+
 
 ## 基本知识
 * RNN
