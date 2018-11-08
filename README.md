@@ -11,23 +11,24 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ## Papers and Codes/Notes
 ### Image Video Captioning 
 - CNN-RNN
-	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015[(code)](https://github.com/kelvinxu/arctic-captions)
-	* Show and Tell: A Neural Image Caption Generator, CVPR 2015
-	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016[(code)](https://github.com/tensorflow/models/tree/master/research/im2txt)
-	* Areas of Attention for Image Captioning, ICCV 2017
-	* (+)Rethinking the Form of Latent States in Image Captioning, ECCV 2018, CUHK
-	* Recurrent Fusion Network for Image Captioning, ECCV 2018, Tencent AI Lab, 复旦
-	* End-to-End Video Captioning with Multitask Reinforcement Learning
-	* Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018, CUHK
+	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015[(pdf)](https://arxiv.org/pdf/1502.03044.pdf)[(code)](https://github.com/kelvinxu/arctic-captions)
+	* Show and Tell: A Neural Image Caption Generator, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf)
+	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016[(pdf)](https://arxiv.org/pdf/1609.06647.pdf)[(code)](https://github.com/tensorflow/models/tree/master/research/im2txt)
+	* Areas of Attention for Image Captioning, ICCV 2017[(pdf)](https://arxiv.org/pdf/1612.01033.pdf)
+	* Rethinking the Form of Latent States in Image Captioning, ECCV 2018, CUHK[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bo_Dai_Rethinking_the_Form_ECCV_2018_paper.pdf)
+	* Recurrent Fusion Network for Image Captioning, ECCV 2018, Tencent AI Lab, 复旦[(pdf)](https://arxiv.org/pdf/1807.09986.pdf)
+
+	* Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018, CUHK[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yilei_Xiong_Move_Forward_and_ECCV_2018_paper.pdf)
 
 - CNN-CNN
-	* Convolutional Image Captioning, CVPR 2018([code](https://github.com/aditya12agd5/convcap))
+	* Convolutional Image Captioning, CVPR 2018[(pdf)](https://arxiv.org/pdf/1711.09151.pdf)[(code)](https://github.com/aditya12agd5/convcap)
 
 - Reinforcement Learning
-	* Improving Reinforcement Learning Based Image Captioning with Natural Language Prior, 2018 
+	* Improving Reinforcement Learning Based Image Captioning with Natural Language Prior, 2018, Tencent/IBM[(pdf)](https://arxiv.org/pdf/1809.06227.pdf)
+	* End-to-End Video Captioning with Multitask Reinforcement Learning[(pdf)](https://arxiv.org/pdf/1803.07950.pdf)
 
 - Others
-	* A Neural Compositional Paradigm for Image Captioning, NIPS 2018, CUHK
+	* A Neural Compositional Paradigm for Image Captioning, NIPS 2018, CUHK[(pdf)](https://arxiv.org/pdf/1810.09630.pdf)
 
 ### Paragraph Description Generation
 - CNN-RNN
