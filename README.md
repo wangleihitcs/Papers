@@ -11,10 +11,12 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ## Papers and Codes/Notes
 ### Image Video Captioning 
 - CNN-RNN
-	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
-	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
-	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
-	* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
+	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015[(code)](https://github.com/kelvinxu/arctic-captions)
+	* Show and Tell: A Neural Image Caption Generator, CVPR 2015
+	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016[(code)](https://github.com/tensorflow/models/tree/master/research/im2txt)
+	* Areas of Attention for Image Captioning, ICCV 2017
+	* (+)Rethinking the Form of Latent States in Image Captioning, ECCV 2018, CUHK
+	* Recurrent Fusion Network for Image Captioning, ECCV 2018, Tencent AI Lab, 复旦
 	* End-to-End Video Captioning with Multitask Reinforcement Learning
 	* Move Forward and Tell- A Progressive Generator of Video Descriptions, ECCV 2018, CUHK
 
@@ -42,7 +44,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 ### Medical Report Generation
 * CNN-RNN
-	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016
+	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
 	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
 	* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
