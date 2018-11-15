@@ -7,6 +7,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - [Medical Image Processing](#Medical-Image-Processing)
 - [Medical Datasets](#Medical-Datasets)
 - [Natural Image Tasks](#Natural-Image-Tasks)
+- [Metrics](#Metrics)
 
 ## Papers and Codes/Notes
 ### Image Video Captioning 
@@ -46,12 +47,12 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ### Medical Report Generation
 * CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
-	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(author's homepage)](https://xiaosongwang.github.io)
-	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
+	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
+	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
 	* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
 
 - Reinforcement Learning
-	* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
+	* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
 		
 - Other
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
@@ -75,10 +76,14 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 ### Medical Datasets
 - Chest X-Ray
-	* NIH Chest X-Ray([download link])(https://nihcc.app.box.com/v/ChestXray-NIHCC)
+	* NIH Chest X-Ray[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 		* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
 
 ### Natural Image Tasks
 - Detection
 	* You Only Look Once- Unified, Real-Time Object Detection, CVPR 2016
+
+### Metrics
+- CIDEr
+	* CIDEr: Consensus-based Image Description Evaluation, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)
 
