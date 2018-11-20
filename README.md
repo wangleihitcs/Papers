@@ -55,7 +55,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
 		
 - Other
-	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018
+	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI
 
 ### Medical Image Processing
 - 分类(classification)
