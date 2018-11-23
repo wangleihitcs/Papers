@@ -39,13 +39,14 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
 
 ### Visual Question Answering
-* CNN-RNN
+- CNN-RNN
 	* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
 	* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 	* Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
+	* 2018(ECCV) Question-Guided Hybrid Convolution for Visual Question Answering, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
 ### Medical Report Generation
-* CNN-RNN
+- CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
 	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
