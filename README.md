@@ -8,6 +8,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - [Medical Datasets](#Medical-Datasets)
 - [Natural Image Tasks](#Natural-Image-Tasks)
 - [Metrics](#Metrics)
+- [Others](#Others)
 
 ## Papers and Codes/Notes
 ### Image Video Captioning 
@@ -88,3 +89,6 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - CIDEr
 	* CIDEr: Consensus-based Image Description Evaluation, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)
 
+### Others
+- Visual Commonsense Reasoning(VCR场景推理)
+	* From Recognition to Cognition- Visual Commonsense Reasoning, 2018, Paul G. Allen School[(pdf)](https://arxiv.org/pdf/1811.10830.pdf)
