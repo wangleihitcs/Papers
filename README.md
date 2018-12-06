@@ -77,9 +77,8 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
 ### Medical Datasets
-- Chest X-Ray
-	* NIH Chest X-Ray[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)
-		* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH
+- NIH Chest X-Ray[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)
+	* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
 - Radiology Objects in COntext(ROCO)
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
