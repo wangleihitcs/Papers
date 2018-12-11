@@ -92,6 +92,6 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 ### Others
 - Visual Commonsense Reasoning(VCR-视觉常识推理)
-	* From Recognition to Cognition- Visual Commonsense Reasoning, 2018, Paul G. Allen School[(homepage)](http://visualcommonsense.com)[(pdf)](https://arxiv.org/pdf/1811.10830.pdf)
+	* **From Recognition to Cognition- Visual Commonsense Reasoning**, Rowan Zeller et al, 2018, Paul G. Allen School[(homepage)](http://visualcommonsense.com)[(pdf)](https://arxiv.org/pdf/1811.10830.pdf)
 - Language Model(语言模型)
-	* BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
+	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
