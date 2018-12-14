@@ -13,8 +13,8 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ## Papers and Codes/Notes
 ### Image Video Captioning 
 - CNN-RNN
-	* Show and Tell: A Neural Image Caption Generator, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf)
-	* Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, ICML 2015[(pdf)](https://arxiv.org/pdf/1502.03044.pdf)[(code)](https://github.com/kelvinxu/arctic-captions)
+	* **Show and Tell: A Neural Image Caption Generator**, Oriol Vinyals et al, CVPR 2015, Google[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf)
+	* **Show, Attend and Tell: Neural Image Caption Generation with Visual Attention**, Kelvin Xu et at, ICML 2015[(pdf)](https://arxiv.org/pdf/1502.03044.pdf)[(code)](https://github.com/kelvinxu/arctic-captions)
 	* Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge, PAMI 2016[(pdf)](https://arxiv.org/pdf/1609.06647.pdf)[(code)](https://github.com/tensorflow/models/tree/master/research/im2txt)
 	* Areas of Attention for Image Captioning, ICCV 2017[(pdf)](https://arxiv.org/pdf/1612.01033.pdf)
 	* Rethinking the Form of Latent States in Image Captioning, ECCV 2018, CUHK[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Bo_Dai_Rethinking_the_Form_ECCV_2018_paper.pdf)
@@ -32,26 +32,26 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - Others
 	* A Neural Compositional Paradigm for Image Captioning, NIPS 2018, CUHK[(pdf)](https://arxiv.org/pdf/1810.09630.pdf)
 
-### Paragraph Description Generation
+### Paragraph Description Generation(段落描述生成)
 - CNN-RNN
-	* DenseCap: Fully Convolutional Localization Networks for Dense Captioning, CVPR 2016, Standford[(homepage)](https://cs.stanford.edu/people/karpathy/densecap/)[(code)](https://github.com/jcjohnson/densecap)
-	* A Hierarchical Approach for Generating Descriptive Image Paragraphs, CVPR 2017[(homepage)](https://cs.stanford.edu/people/ranjaykrishna/im2p/index.html)[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
+	* **DenseCap: Fully Convolutional Localization Networks for Dense Captioning**, Justin Johnson et al, CVPR 2016, Standford[(homepage)](https://cs.stanford.edu/people/karpathy/densecap/)[(code)](https://github.com/jcjohnson/densecap)
+	* **A Hierarchical Approach for Generating Descriptive Image Paragraphs**, Jonathan Krause et al, CVPR 2017, Stanford[(homepage)](https://cs.stanford.edu/people/ranjaykrishna/im2p/index.html)[(dense-caption code)](https://github.com/InnerPeace-Wu/densecap-tensorflow)
 	* Recurrent Topic-Transition GAN for Visual Paragraph Generation, ICCV 2017
 	* Diverse and Coherent Paragraph Generation from Images, ECCV 2018[(code)](https://github.com/metro-smiles/CapG_RevG_Code)
 
-### Visual Question Answering
+### Visual Question Answering(视觉问答)
 - CNN-RNN
 	* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
 	* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 	* Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
 	* 2018(ECCV) Question-Guided Hybrid Convolution for Visual Question Answering, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
-### Medical Report Generation
+### Medical Report Generation(医学报告生成)
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
-	* TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays, CVPR 2018[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
+	* **TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays**, Xiaosong Wang et at, CVPR 2018, NIH[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
 	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
-	* Multimodal Recurrent Model with Attention for Automated Radiology Report Generation, MICCAI 2018, PSU
+	* **Multimodal Recurrent Model with Attention for Automated Radiology Report Generation**, Yuan Xue, MICCAI 2018, PSU
 
 - Reinforcement Learning
 	* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
@@ -59,7 +59,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - Other
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
 
-### Medical Image Processing
+### Medical Image Processing(医学图像处理)
 - 分类(classification)
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
 	
@@ -76,17 +76,20 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* U-Net: Convolutional Networks for Biomedical Image Segmentation, 2015 MICCAI
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
-### Medical Datasets
-- NIH Chest X-Ray[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)
-	* ChestX-ray8 Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
+### Medical Datasets(医学图像数据集)
+- NIH Chest X-ray8/14[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)[(kaggle's download link)](https://www.kaggle.com/nih-chest-xrays/data)
+	* ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
+- Open-i Chest X-Ray[(download link)](https://openi.nlm.nih.gov/faq.php?it=xg)
 - Radiology Objects in COntext(ROCO)
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
-### Natural Image Tasks
+### Natural Image Tasks(自然图像的计算机视觉任务)
 - Detection
 	* You Only Look Once- Unified, Real-Time Object Detection, CVPR 2016
 
-### Metrics
+### Metrics(量化指标)
+- BLEU
+	* **BLEU: a method for automatic evaluation of machine translation**, Kishore Papineni et al, ACL 2002[(pdf)](https://www.aclweb.org/anthology/P02-1040.pdf)
 - CIDEr
 	* CIDEr: Consensus-based Image Description Evaluation, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)
 
