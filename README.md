@@ -44,17 +44,17 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* Multi-level Attention Networks for Visual Question Answering, CVPR 2017 
 	* Motion-Appearance Co-Memory Networks for Video Question Answering, 2018
 	* Deep Attention Neural Tensor Network for Visual Question Answering, ECCV 2018, HIT
-	* 2018(ECCV) Question-Guided Hybrid Convolution for Visual Question Answering, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
+	* **Question-Guided Hybrid Convolution for Visual Question Answering**, Peng Gao et al, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
 ### Medical Report Generation
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* **TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays**, Xiaosong Wang et at, CVPR 2018, NIH[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
-	* On the Automatic Generation of Medical Imaging Reports, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
+	* **On the Automatic Generation of Medical Imaging Reports**, Baoyu Jing et al, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
 	* **Multimodal Recurrent Model with Attention for Automated Radiology Report Generation**, Yuan Xue, MICCAI 2018, PSU
 
 - Reinforcement Learning
-	* Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
+	* **Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation**, Christy Y. Li et al, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
 		
 - Other
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
@@ -98,3 +98,5 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* **From Recognition to Cognition- Visual Commonsense Reasoning**, Rowan Zeller et al, 2018, Paul G. Allen School[(homepage)](http://visualcommonsense.com)[(pdf)](https://arxiv.org/pdf/1811.10830.pdf)
 - Language Model(语言模型)
 	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
+- Word Representations
+	* **Deep contextualized word representations**, Matthew E. Peters et al, 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
