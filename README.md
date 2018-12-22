@@ -99,4 +99,4 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - Language Model(语言模型)
 	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
 - Word Representations
-	* **Deep contextualized word representations**, Matthew E. Peters et al, 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
+	* **Deep contextualized word representations**, Matthew E. Peters et al, NAACL 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
