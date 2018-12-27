@@ -60,10 +60,9 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
 
 ### Medical Image Processing
-- 分类(classification)
-	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
-	
 - 检测(detection)
+	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
+	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
 	* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
 	* 肺部CT图像病变区域检测方法
 	* 基于定量影像组学的肺肿瘤良恶性预测方法
