@@ -47,6 +47,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* **Question-Guided Hybrid Convolution for Visual Question Answering**, Peng Gao et al, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
 ### Medical Report Generation
+- [Notes](https://blog.csdn.net/wl1710582732/article/details/85345285)
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* **TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays**, Xiaosong Wang et at, CVPR 2018, NIH[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
@@ -62,7 +63,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ### Medical Image Processing
 - 检测(detection)
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
-	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
+	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI-MLMI oral 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
 	* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
 	* 肺部CT图像病变区域检测方法
 	* 基于定量影像组学的肺肿瘤良恶性预测方法
@@ -84,7 +85,8 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 ### Natural Image Tasks
 - Detection
-	* You Only Look Once- Unified, Real-Time Object Detection, CVPR 2016
+	* **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)
+	* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
 
 ### Metrics
 - BLEU
