@@ -85,6 +85,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 ### Natural Image Tasks
 - Detection
+	* Learning Deep Features for Discriminative Localization, Bolei Zhou et al, CVPR 2016, MIT[(pdf)](https://arxiv.org/pdf/1512.04150.pdf)
 	* **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)
 	* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
 
