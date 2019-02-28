@@ -13,13 +13,14 @@ CAM技术详细且简洁地展示了如何用CNN进行目标定位(检测)以及
 
 - Firstly, get the last convolutional layer feature maps $f_k(x,y)$，is the $kth$ channel feature map, channel num is $n$
 - Sencondly，use **global average pooling** to get $F_{k}$
-
 $$F_{k} = \sum_{x,y} f_k(x,y)$$
+
 - Thirdly，use a FC layer，get class score $S_{c}$，it can be used to compute *softmax cross entropy loss* and then to train
-$$S_{c} = \sum_{k}w^{c}_{k} * F_{k}$$
+$$S_{c} = \sum_{k} w_{k}^{c} * F_{k}$$
 
 - Finally，we can get *class activation map* by the weights $w_{k}^{c}$ for every class $c$，the resolution of $M_c(x,y)$ and $f_k(x,y)$ is same, and we can *upsample* it to get final map(size is same with oral image)
-$$M_c(x,y) = \sum_{k}w^{c}_{k}*f_{k}(x,y)$$
+$$M_c(x,y) = \sum_{k}w_{k}^{c} * f_{k}(x,y)$$
+
 
 ## Experiments
 ### classification result
