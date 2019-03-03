@@ -45,7 +45,7 @@ $$ confidence = Pr(object)*IOU_{pred}^{truth} $$
 
 #### 预测时的class-specific confidence score
 对于预测的$S*S*B=98$个bounding boxes，其基于第$i$个类别的score值：
-$$Pr(Class_{i}|object)*Pr(object)*IOU_{pred}^{truth}=Pr(Class_{i}|object)*IOU_{pred}^{truth}$$
+$$Pr(Class_{i} | object)* Pr(object) * IOU_{pred}^{truth}=Pr(Class_{i} | object) * IOU_{pred}^{truth}$$
 注：首先预测时并没有ground truth的bounding box，因为YOLO模型直接回归了每个bounding box的$confidence$($C_{i}$)和类别概率$p_i(c)$，它俩直接相乘即可得到上面的score，注意此处的$i$是下面Loss里面的$i$，代表了$S*S$格子中的第$i$个格子。
 
 #### 损失函数(Sum-Square-Error)
