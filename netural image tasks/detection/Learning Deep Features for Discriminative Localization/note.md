@@ -3,8 +3,8 @@
 ### Task
 基于弱监督学习的图像分类和定位(检测)
 相关工作:
-	* 弱监督目标定位
-	* 可视化CNN
+* 弱监督目标定位
+* 可视化CNN
 
 ## Method
 ### Class Activation Mapping(CAM)

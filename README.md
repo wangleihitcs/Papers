@@ -1,6 +1,6 @@
 # Intro
 Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
-- [Image/Video Captioning](#Image-Video-Captioning )
+- [Image/Video Captioning](#Image-Video-Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
@@ -88,7 +88,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* Weakly-supervised
 		* Learning Deep Features for Discriminative Localization, Bolei Zhou et al, CVPR 2016, MIT[(pdf)](https://arxiv.org/pdf/1512.04150.pdf)[(code)](https://github.com/metalbubble/CAM)[(note)](./netural%20image%20tasks/detection/Learning%20Deep%20Features%20for%20Discriminative%20Localization/note.md)
 	* Supervised(with bounding-box)
-		* **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)
+		* **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)[(note)](./netural%20image%20tasks/detection/You%20Only%20Look%20Once-%20Unified%20Real-Time%20Object%20Detection/note.md)
 		* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
 
 ### Metrics
