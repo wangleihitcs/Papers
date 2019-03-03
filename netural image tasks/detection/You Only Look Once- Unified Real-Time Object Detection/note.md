@@ -11,7 +11,7 @@
 	- 速度极快
 	YOLO base model能达到45帧每秒，fast version model能达到150帧每秒，在一块Titan X GPU上。原因是模型简单，没有复杂的pipelines，测试图像时直接跑一次模型即可。
 	- 全局推理($reason$ $globally$)，端到端($end$ $to$ $end$)
-	YOLO在训练和测试时，输入整张图像，经过CNN，最终输出一个张量($7*7*30$)。
+	YOLO在训练和测试时，输入整张图像，经过CNN，最终输出一个张量($7* 7* 30$)。
 	- 学习到物体的更一般性的表征($generalizable$ $representations$)
 	意思是相比较于其它的目标检测模型，YOLO的普适性和泛化性更好。
 
