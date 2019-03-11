@@ -84,6 +84,9 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
 ### Natural Image Tasks
+- Classification
+	* VGG: Very Deep Convolutional NetWorks for Large-Scale Image Recognition, Karen Simonyan et at, ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
+
 - Detection
 	* Weakly-supervised
 		* Learning Deep Features for Discriminative Localization, Bolei Zhou et al, CVPR 2016, MIT[(pdf)](https://arxiv.org/pdf/1512.04150.pdf)[(code)](https://github.com/metalbubble/CAM)[(note)](./netural%20image%20tasks/detection/Learning%20Deep%20Features%20for%20Discriminative%20Localization/note.md)
