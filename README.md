@@ -100,7 +100,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - BLEU
 	* **BLEU: a method for automatic evaluation of machine translation**, Kishore Papineni et al, ACL 2002[(pdf)](https://www.aclweb.org/anthology/P02-1040.pdf)
 - CIDEr
-	* CIDEr: Consensus-based Image Description Evaluation, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)
+	* CIDEr: Consensus-based Image Description Evaluation, CVPR 2015[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf)[(note)](https://blog.csdn.net/wl1710582732/article/details/84202254)
 
 ### Others
 - Visual Commonsense Reasoning(VCR-视觉常识推理)
@@ -109,3 +109,6 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
 - Word Representations
 	* **Deep contextualized word representations**, Matthew E. Peters et al, NAACL 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
+- Teacher Forcing Policy
+	* A learning algorithm for continually running fully recurrent neural networks, Ronald et al, Neural Computation 1989[(pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9724&rep=rep1&type=pdf)
+	* Professor Forcing: A New Algorithm for Training Recurrent Networks, Alex Lamb et al, NIPS 2016[(pdf)](https://arxiv.org/pdf/1610.09038.pdf)
