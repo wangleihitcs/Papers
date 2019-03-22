@@ -56,6 +56,9 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 
 - Reinforcement Learning
 	* **Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation**, Christy Y. Li et al, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
+
+- Knowledge Graph
+	* **Knowledge-Driven Encode, Retrieve, Paraphrase for Medical Image Report Generation**, Christy Y. Li et al, AAAI 2019, DU[(pdf)](https://www.aaai.org/Papers/AAAI/2019/AAAI-LiChristy.629.pdf)
 		
 - Other
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
@@ -110,5 +113,5 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - Word Representations
 	* **Deep contextualized word representations**, Matthew E. Peters et al, NAACL 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
 - Teacher Forcing Policy
-	* A learning algorithm for continually running fully recurrent neural networks, Ronald et al, Neural Computation 1989[(pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9724&rep=rep1&type=pdf)
+	* A learning algorithm for continually running fully recurrent neural networks, Ronald et al, Neural Computation 1989[(pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9724&rep=rep1&type=pdf)[(node)](https://blog.csdn.net/wl1710582732/article/details/88636852)
 	* Professor Forcing: A New Algorithm for Training Recurrent Networks, Alex Lamb et al, NIPS 2016[(pdf)](https://arxiv.org/pdf/1610.09038.pdf)
