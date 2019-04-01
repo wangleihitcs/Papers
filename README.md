@@ -47,12 +47,12 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* **Question-Guided Hybrid Convolution for Visual Question Answering**, Peng Gao et al, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
 ### Medical Report Generation
-- [Notes](https://blog.csdn.net/wl1710582732/article/details/85345285)
+- [note](https://blog.csdn.net/wl1710582732/article/details/85345285)
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* **TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays**, Xiaosong Wang et at, CVPR 2018, NIH[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
 	* **On the Automatic Generation of Medical Imaging Reports**, Baoyu Jing et al, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
-	* **Multimodal Recurrent Model with Attention for Automated Radiology Report Generation**, Yuan Xue, MICCAI 2018, PSU
+	* **Multimodal Recurrent Model with Attention for Automated Radiology Report Generation**, Yuan Xue, MICCAI 2018, PSU[(pdf)](https://faculty.ist.psu.edu/suh972/Xue-MICCAI2018.pdf)
 
 - Reinforcement Learning
 	* **Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation**, Christy Y. Li et al, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
@@ -89,6 +89,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 ### Natural Image Tasks
 - Classification
 	* VGG: Very Deep Convolutional NetWorks for Large-Scale Image Recognition, Karen Simonyan et at, ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
+	* Inception：Going Deeper with Convolutions, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
 
 - Detection
 	* Weakly-supervised
