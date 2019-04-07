@@ -1,5 +1,5 @@
 # Intro
-Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
+Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
 - [Image/Video Captioning](#Image-Video-Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
@@ -64,25 +64,27 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
 
 ### Medical Image Processing
-- 检测(detection)
+- Detection
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
 	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI-MLMI oral 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
 	* DeepRadiologyNet - Radiologist Level Pathology Detection in CT Head Images
 	* 肺部CT图像病变区域检测方法
 	* 基于定量影像组学的肺肿瘤良恶性预测方法
 
-- 增强(enhace)
-	* 超分(super resolution)
+- Enhace
+	* Super Resolution
 		* Image Super-Resolution Using Deep Convolutional Networks
 		* Deeply-Recursive Convolutional Network for Image Super-Resolution
-- 分割(segmentation)
+- Segmentation
 	* U-Net: Convolutional Networks for Biomedical Image Segmentation, 2015 MICCAI
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
 ### Medical Datasets
 - NIH Chest X-ray8/14[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)[(kaggle's download link)](https://www.kaggle.com/nih-chest-xrays/data)
 	* ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
+
 - Open-i Chest X-Ray[(download link)](https://openi.nlm.nih.gov/faq.php?it=xg)
+
 - Radiology Objects in COntext(ROCO)
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
@@ -90,6 +92,7 @@ Combine CV with NLP tasks，place emphasis on Image/Video Captioning、VQA、Par
 - Classification
 	* VGG: Very Deep Convolutional NetWorks for Large-Scale Image Recognition, Karen Simonyan et at, ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
 	* Inception：Going Deeper with Convolutions, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+	* ResNet：Deep Residual Learning for Image Recognition, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
 
 - Detection
 	* Weakly-supervised
