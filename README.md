@@ -93,6 +93,7 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph De
 	* VGG: Very Deep Convolutional NetWorks for Large-Scale Image Recognition, Karen Simonyan et at, ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
 	* Inception：Going Deeper with Convolutions, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
 	* ResNet：Deep Residual Learning for Image Recognition, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
+	* SENet：Squeeze-and-Excitation Networks, Jie Hu et al, CVPR 2018,  Momenta(中国无人驾驶公司，曹旭东创立) and Oxford University[(pdf)](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf)[(code)](https://github.com/hujie-frank/SENet)
 
 - Detection
 	* Weakly-supervised
