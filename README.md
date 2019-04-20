@@ -114,9 +114,11 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph De
 - Visual Commonsense Reasoning(VCR-视觉常识推理)
 	* **From Recognition to Cognition- Visual Commonsense Reasoning**, Rowan Zeller et al, 2018, Paul G. Allen School[(homepage)](http://visualcommonsense.com)[(pdf)](https://arxiv.org/pdf/1811.10830.pdf)
 - Language Model(语言模型)
-	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)
-- Word Representations
-	* **Deep contextualized word representations**, Matthew E. Peters et al, NAACL 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
+	* Transformer：**Attention Is All You Need**, Ashish Vaswani et al, NIPS 2017, Google Brain/Research[(pdf)](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)[(code)](https://github.com/jadore801120/attention-is-all-you-need-pytorch)[(blog)](https://medium.com/@cyeninesky3/attention-is-all-you-need-%E5%9F%BA%E6%96%BC%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%A9%9F%E5%88%B6%E7%9A%84%E6%A9%9F%E5%99%A8%E7%BF%BB%E8%AD%AF%E6%A8%A1%E5%9E%8B-dcc12d251449)
+	* **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, Jacob Devlin et al, 2018, Googel AI Language[(pdf)](https://arxiv.org/pdf/1810.04805.pdf)[(code)](https://github.com/google-research/bert)[(slides)](https://nlp.stanford.edu/seminar/details/jdevlin.pdf)
+	* ELMo：**Deep contextualized word representations**, Matthew E. Peters et al, NAACL 2018, Paul G. Allen School[(homepage)](https://allennlp.org/elmo)[(pdf)](https://arxiv.org/pdf/1802.05365.pdf)[(code-tf)](https://github.com/allenai/bilm-tf)
+
+	
 - Teacher Forcing Policy
 	* A learning algorithm for continually running fully recurrent neural networks, Ronald et al, Neural Computation 1989[(pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9724&rep=rep1&type=pdf)[(node)](https://blog.csdn.net/wl1710582732/article/details/88636852)
 	* Professor Forcing: A New Algorithm for Training Recurrent Networks, Alex Lamb et al, NIPS 2016[(pdf)](https://arxiv.org/pdf/1610.09038.pdf)
