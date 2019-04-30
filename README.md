@@ -1,11 +1,11 @@
 # Intro
-Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph Description Generation and Medical Report Generation.
+Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Report Generation、Scene Text Detection.
 - [Image/Video Captioning](#Image-Video-Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
 - [Medical Image Processing](#Medical-Image-Processing)
-- [Medical Datasets](#Medical-Datasets)
+- [Scene Text Detection and Recognition](#Scene-Text-Detection-and-Recognition)
 - [Natural Image Tasks](#Natural-Image-Tasks)
 - [Metrics](#Metrics)
 - [Others](#Others)
@@ -64,6 +64,15 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph De
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
 
 ### Medical Image Processing
+#### Common Datasets
+- NIH Chest X-ray8/14[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)[(kaggle's download link)](https://www.kaggle.com/nih-chest-xrays/data)
+	* ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
+
+- Open-i Chest X-Ray[(download link)](https://openi.nlm.nih.gov/faq.php?it=xg)
+
+- Radiology Objects in COntext(ROCO)
+	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
+#### Tasks
 - Detection
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
 	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI-MLMI oral 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
@@ -79,14 +88,8 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Paragraph De
 	* U-Net: Convolutional Networks for Biomedical Image Segmentation, 2015 MICCAI
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
-### Medical Datasets
-- NIH Chest X-ray8/14[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)[(kaggle's download link)](https://www.kaggle.com/nih-chest-xrays/data)
-	* ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases, CVPR 2017, NIH[(pdf)](https://arxiv.org/pdf/1705.02315.pdf)
+### Scene Text Detection and Recognition
 
-- Open-i Chest X-Ray[(download link)](https://openi.nlm.nih.gov/faq.php?it=xg)
-
-- Radiology Objects in COntext(ROCO)
-	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
 ### Natural Image Tasks
 - Classification
