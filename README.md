@@ -47,7 +47,6 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	* **Question-Guided Hybrid Convolution for Visual Question Answering**, Peng Gao et al, ECCV 2018, CUHK[(pdf)](https://arxiv.org/pdf/1808.02632.pdf)
 
 ### Medical Report Generation
-- [note](https://blog.csdn.net/wl1710582732/article/details/85345285)
 - CNN-RNN
 	* Learning to Read Chest X-Rays- Recurrent Neural Cascade Model for Automated Image Annotation, CVPR 2016[(pdf)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7780643)
 	* **TieNet Text-Image Embedding Network for Common Thorax Disease Classification and Reporting in Chest X-rays**, Xiaosong Wang et at, CVPR 2018, NIH[(pdf)](http://www.cs.jhu.edu/~lelu/publication/TieNet_CVPR2018_spotlight.pdf)[(author's homepage)](https://xiaosongwang.github.io)
@@ -63,6 +62,10 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 - Other
 	* TextRay Mining Clinical Reports to Gain a Broad Understanding of Chest X-rays, 2018 MICCAI[(pdf)](https://arxiv.org/abs/1806.02121)
 
+- Blogs
+	* [医学报告生成综述](https://blog.csdn.net/wl1710582732/article/details/85345285)
+
+
 ### Medical Image Processing
 #### Common Datasets
 - NIH Chest X-ray8/14[(download link)](https://nihcc.app.box.com/v/ChestXray-NIHCC)[(kaggle's download link)](https://www.kaggle.com/nih-chest-xrays/data)
@@ -72,6 +75,7 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 
 - Radiology Objects in COntext(ROCO)
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
+
 #### Tasks
 - Detection
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
@@ -89,7 +93,7 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
 ### Scene Text Detection and Recognition
-
+- **Scene Text Detection and Recognition: The Deep Learning Era**, Shangbang Long et al, 2018, Megvii[(pdf)](https://arxiv.org/pdf/1811.04256.pdf)[(releated sources)](https://github.com/Jyouhou/SceneTextPapers)
 
 ### Natural Image Tasks
 - Classification
