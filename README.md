@@ -76,7 +76,7 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 - Radiology Objects in COntext(ROCO)
 	* Radiology Objects in COntext (ROCO): A Multimodal Image Dataset, MICCAI 2018[(intro)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04-ROCO_Labels_MICCAI_2018.pdf)[(pdf)](https://labels.tue-image.nl/wp-content/uploads/2018/09/AM-04.pdf)[(download)](https://github.com/razorx89/roco-dataset)
 
-#### Tasks
+#### Medical Tasks
 - Detection
 	* CheXNet- Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning, 2018 吴恩达
 	* **Attention-Guided Curriculum Learning for Weakly Supervised Classification and Localization of Thoracic Diseases on Chest Radiographs**, Yuxing Tang et at, MICCAI-MLMI oral 2018, NIH[(pdf)](https://arxiv.org/pdf/1807.07532.pdf)
@@ -94,6 +94,11 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 
 ### Scene Text Detection and Recognition
 - **Scene Text Detection and Recognition: The Deep Learning Era**, Shangbang Long et al, 2018, Megvii[(pdf)](https://arxiv.org/pdf/1811.04256.pdf)[(releated sources)](https://github.com/Jyouhou/SceneTextPapers)
+- Scene Text Detection
+	- Multi Step
+		* Multi-Oriented Text Detection with Fully Convolutional Networks, Zheng Zhang et al, CVPR 2016, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Multi-Oriented_Text_Detection_CVPR_2016_paper.pdf)[(code)](https://github.com/stupidZZ/FCN_Text)
+
+- Scence Text Recognition
 
 ### Natural Image Tasks
 - Classification
