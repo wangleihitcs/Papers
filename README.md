@@ -93,10 +93,17 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
 ### Scene Text Detection and Recognition
+#### Overview
 - **Scene Text Detection and Recognition: The Deep Learning Era**, Shangbang Long et al, 2018, Megvii[(pdf)](https://arxiv.org/pdf/1811.04256.pdf)[(releated sources)](https://github.com/Jyouhou/SceneTextPapers)
-- Scene Text Detection
-	- Multi Step
-		* Multi-Oriented Text Detection with Fully Convolutional Networks, Zheng Zhang et al, CVPR 2016, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Multi-Oriented_Text_Detection_CVPR_2016_paper.pdf)[(code)](https://github.com/stupidZZ/FCN_Text)
+
+#### Scene Text Detection
+- Multi Step
+	* Multi-Oriented Text Detection with Fully Convolutional Networks, Zheng Zhang et al, CVPR 2016, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Multi-Oriented_Text_Detection_CVPR_2016_paper.pdf)[(code)](https://github.com/stupidZZ/FCN_Text)[(blog)](https://www.cnblogs.com/lillylin/p/6102708.html)
+- Simplified Pipeline
+	- Anchor Based
+		* TextBoxes: A Fast Text Detector with a Single Deep Neural Network, Minghui Liao et al, AAAI 2017, HUST[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14202/14295)[(code)](https://github.com/MhLiao/TextBoxes)
+	- Region Proposal
+		* 
 
 - Scence Text Recognition
 
@@ -113,6 +120,9 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	* Supervised(with bounding-box)
 		* **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)[(note)](./netural%20image%20tasks/detection/You%20Only%20Look%20Once-%20Unified%20Real-Time%20Object%20Detection/note.md)
 		* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
+
+		* **SSD: Single Shot MultiBox Detector**, Wei Liu et al, ECCV 2016, UNC[(pdf)](https://www.cs.unc.edu/~wliu/papers/ssd.pdf)[(code)](https://github.com/weiliu89/caffe/tree/ssd)
+
 - Segmentation
 	* **Mask R-CNN**, Kaiming He et al, ICCV 2017(Best Paper), Facebook AI Research (FAIR)[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf)[(code)](https://github.com/matterport/Mask_RCNN)
 
