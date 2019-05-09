@@ -101,9 +101,12 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	* Multi-Oriented Text Detection with Fully Convolutional Networks, Zheng Zhang et al, CVPR 2016, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Multi-Oriented_Text_Detection_CVPR_2016_paper.pdf)[(code)](https://github.com/stupidZZ/FCN_Text)[(blog)](https://www.cnblogs.com/lillylin/p/6102708.html)
 - Simplified Pipeline
 	- Anchor Based
-		* TextBoxes: A Fast Text Detector with a Single Deep Neural Network, Minghui Liao et al, AAAI 2017, HUST[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14202/14295)[(code)](https://github.com/MhLiao/TextBoxes)
+		* **TextBoxes: A Fast Text Detector with a Single Deep Neural Network**, Minghui Liao et al, AAAI 2017, HUST 白翔组[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14202/14295)[(code)](https://github.com/MhLiao/TextBoxes)[(blog)](https://www.cnblogs.com/lillylin/p/6204099.html)
+		* **EAST: An Efficient and Accurate Scene Text Detector**, Xinyu Zhou et al, CVPR 2017, Megvii 姚聪组[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_EAST_An_Efficient_CVPR_2017_paper.pdf)[(code)](https://github.com/argman/EAST)[(blog)](https://blog.csdn.net/sparkexpert/article/details/77987654)
 	- Region Proposal
-		* 
+		* Feature Enhancement Network: A Refined Scene Text Detector, Sheng Zhang et al, AAAI 2018, South China University of Technology 金连文组[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16806/15981)
+- Pixel Level
+	* **Single Shot Text Detector with Regional Attention**, Pan He et al, ICCV 2017, Oxford 黄伟林组[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Single_Shot_Text_ICCV_2017_paper.pdf)[(code)](https://github.com/BestSonny/SSTD)
 
 - Scence Text Recognition
 
