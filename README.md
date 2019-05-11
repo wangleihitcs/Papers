@@ -107,13 +107,18 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 		- Region Proposal
 			* FEN, Feature Enhancement Network: A Refined Scene Text Detector, Sheng Zhang et al, AAAI 2018, South China University of Technology 金连文组[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16806/15981)
 - Predict Units
-	- Text Level
+	- Text-Line Level
 		* TextBoxes、EAST、FEN
-	- Sub-Text Level
+	- Sub-Text-Line Level
 		- Pixel Level
 			* SSTD, **Single Shot Text Detector with Regional Attention**, Pan He et al, ICCV 2017, Oxford 黄伟林组[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Single_Shot_Text_ICCV_2017_paper.pdf)[(code)](https://github.com/BestSonny/SSTD)
 		- Components Level(Word or Character Level)
-			* SegLink, **Detecting Oriented Text in Natural Images by Linking Segments**, Baoguang Shi et al, CVPR 2017, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shi_Detecting_Oriented_Text_CVPR_2017_paper.pdf)[(code)](https://github.com/bgshih/seglink)
+			* SegLink, **Detecting Oriented Text in Natural Images by Linking Segments**, Baoguang Shi et al, CVPR 2017, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shi_Detecting_Oriented_Text_CVPR_2017_paper.pdf)[(code)](https://github.com/bgshih/seglink)[(blog)](https://zhuanlan.zhihu.com/p/37781277)
+- Target
+	- Long Text
+		* SegLink
+	- Irregular Shapes
+		* TextSnake, TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes, Shangbang Long et al, ECCV 2018, PU 姚聪组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)
 
 #### Scence Text Recognition
 
