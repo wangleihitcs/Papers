@@ -120,7 +120,17 @@ Combine CV with NLP tasks，focus on Image/Video Captioning、VQA、Medical Repo
 	- Irregular Shapes
 		* TextSnake, TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes, Shangbang Long et al, ECCV 2018, PU 姚聪组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)
 
-#### Scence Text Recognition
+#### Scene Text Recognition
+- Connectionist Temporal Classification
+	* CRNN, **An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition**, Baoguang Shi et al, PAMI 2017, HUST 白翔组[(pdf)](https://arxiv.org/pdf/1507.05717.pdf)[(code)](https://github.com/bgshih/crnn)
+- Attention Mechanism
+	* R2AM, Recursive Recurrent Nets with Attention Modeling for OCR in the Wild, Chen-Yu Lee et al, CVPR 2016, UC San Diego[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Lee_Recursive_Recurrent_Nets_CVPR_2016_paper.pdf)
+	* Robust Scene Text Recognition with Automatic Rectification, Baoguang Shi et al, CVPR 2016, HUST 白翔组[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Robust_Scene_Text_CVPR_2016_paper.pdf)
+
+#### End-to-End Scene Text Detection and Recognition
+* Deep TextSpotter, **Deep TextSpotter: An End-to-End Trainable Scene Text Localization and Recognition Framework**, Michal Busta et al, ICCV 2017, Czech Technical University[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/Busta_Deep_TextSpotter_An_ICCV_2017_paper.pdf)
+* See, **SEE: Towards Semi-Supervised End-to-End Scene Text Recognition**, Christian Bartz et al, AAAI 2018, Potsdam[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16270/16248)[(code)](https://github.com/Bartzi/see)
+* Mask TextSpotter, Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes, Pengyuan Lyu et al, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)
 
 ### Natural Image Tasks
 - Classification
