@@ -53,7 +53,7 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 	* **On the Automatic Generation of Medical Imaging Reports**, Baoyu Jing et al, ACL 2018, CMU[(pdf)](https://arxiv.org/pdf/1711.08195.pdf)[(author's homepage)](http://www.cs.cmu.edu/~pengtaox/)
 	* **Multimodal Recurrent Model with Attention for Automated Radiology Report Generation**, Yuan Xue, MICCAI 2018, PSU[(pdf)](https://faculty.ist.psu.edu/suh972/Xue-MICCAI2018.pdf)
 	* Attention-Based Abnormal-Aware Fusion Network for Radiology Report Generation, Xiancheng Xie et al, 2019, Fudan University
-	* Addressing Data Bias Problems for Chest X-ray Image Report Generation, Philipp Harzig et al, 2019, University of Augsburg Augsburg[(pdf)](https://arxiv.org/pdf/1908.02123.pdf)
+	* Addressing Data Bias Problems for Chest X-ray Image Report Generation, Philipp Harzig et al, 2019, University of Augsburg[(pdf)](https://arxiv.org/pdf/1908.02123.pdf)
 
 - Reinforcement Learning
 	* **Hybrid Retrieval-Generation Reinforced Agent for Medical Image Report Generation**, Christy Y. Li et al, NIPS 2018, CMU[(pdf)](https://arxiv.org/pdf/1805.08298.pdf)[(author's homepage)](https://www.cs.cmu.edu/~zhitingh/)
