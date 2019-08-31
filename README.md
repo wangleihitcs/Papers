@@ -164,9 +164,10 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 * See, **SEE: Towards Semi-Supervised End-to-End Scene Text Recognition**, Christian Bartz et al, AAAI 2018, Potsdam[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16270/16248)[(code)](https://github.com/Bartzi/see)
 * Mask TextSpotter, Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes, Pengyuan Lyu et al, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)
 
+
 ### Weakly Supervised Segmentation
 - Bounding Box Supervision
-	* BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, Jifeng Dai et al, ICCV 2015, Microsoft Research([pdf])(https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dai_BoxSup_Exploiting_Bounding_ICCV_2015_paper.pdf)
+	* BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, Jifeng Dai et al, ICCV 2015, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dai_BoxSup_Exploiting_Bounding_ICCV_2015_paper.pdf)
 - Label Supervision
 	* DSRG, Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing, Zilong Huang et al, CVPR 2018, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)[(code)](https://github.com/speedinghzl/DSRG)
 
