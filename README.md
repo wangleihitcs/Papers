@@ -168,6 +168,7 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 ### Weakly Supervised Segmentation
 - Bounding Box Supervision
 	* BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, Jifeng Dai et al, ICCV 2015, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dai_BoxSup_Exploiting_Bounding_ICCV_2015_paper.pdf)
+	* Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation, Chunfeng Song et al, CVPR 2019, CASIA[(pdf)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Song_Box-Driven_Class-Wise_Region_Masking_and_Filling_Rate_Guided_Loss_for_CVPR_2019_paper.pdf)
 - Label Supervision
 	* DSRG, Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing, Zilong Huang et al, CVPR 2018, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)[(code)](https://github.com/speedinghzl/DSRG)
 
