@@ -167,11 +167,12 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 
 ### Weakly Supervised Segmentation
 - Bounding Box Supervision
-	* BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, Jifeng Dai et al, ICCV 2015, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dai_BoxSup_Exploiting_Bounding_ICCV_2015_paper.pdf)
-	* Simple Does It: Weakly Supervised Instance and Semantic Segmentation, Anna Khoreva et al, CVPR 2017, Max Planck Institute for Informatics[(pdf)](https://zpascal.net/cvpr2017/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf)[(code)](https://datasets.d2.mpi-inf.mpg.de//khoreva_cvpr17_SimpleDoesIt/simple_does_it_code.zip)[(tf-code)](https://github.com/philferriere/tfwss)
+	* **BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation**, Jifeng Dai et al., ICCV 2015, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Dai_BoxSup_Exploiting_Bounding_ICCV_2015_paper.pdf)
+	* **Simple Does It: Weakly Supervised Instance and Semantic Segmentation, Anna Khoreva et al., CVPR 2017**, Max Planck Institute for Informatics[(pdf)](https://zpascal.net/cvpr2017/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf)[(code)](https://datasets.d2.mpi-inf.mpg.de//khoreva_cvpr17_SimpleDoesIt/simple_does_it_code.zip)[(tf-code)](https://github.com/philferriere/tfwss)
 	* Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation, Chunfeng Song et al, CVPR 2019, CASIA[(pdf)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Song_Box-Driven_Class-Wise_Region_Masking_and_Filling_Rate_Guided_Loss_for_CVPR_2019_paper.pdf)
-- Label Supervision
-	* DSRG, Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing, Zilong Huang et al, CVPR 2018, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)[(code)](https://github.com/speedinghzl/DSRG)
+- Image Label Supervision
+	* DSRG, Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing, Zilong Huang et al., CVPR 2018, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)[(code)](https://github.com/speedinghzl/DSRG)
+	* SSENet, Self-supervised Scale Equivariant Network for Weakly Supervised Semantic Segmentation, Yude Wang et al., 2019, CAS[(pdf)](https://arxiv.org/pdf/1909.03714.pdf)[(code)](https://github.com/YudeWang/SSENet-pytorch)
 
 
 ### Metrics
