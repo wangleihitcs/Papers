@@ -1,12 +1,11 @@
 # Intro
-Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Captioning、VQA、Scene Text Detection、Anchor-free Object Detection、Weakly Supervised Segmentation.
+Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Captioning、VQA、Anchor-free Object Detection、Weakly Supervised Segmentation.
 - [Image/Video Captioning](#Image-Video-Captioning)
 - [Paragraph Description Generation](#Paragraph-Description-Generation)
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
 - [Medical Image Processing](#Medical-Image-Processing)
 - [Natural Image Tasks](#Natural-Image-Tasks)
-- [Scene Text Detection and Recognition](#Scene-Text-Detection-and-Recognition)
 - [Weakly Supervised Segmentation](#Weakly-Supervised-Segmentation)
 - [Metrics](#Metrics)
 - [Others](#Others)
@@ -97,10 +96,10 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 
 ### Natural Image Tasks
 #### Classification
-* VGG: Very Deep Convolutional NetWorks for Large-Scale Image Recognition, Karen Simonyan et at, ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
-* Inception：Going Deeper with Convolutions, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
-* ResNet：Deep Residual Learning for Image Recognition, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
-* SENet：Squeeze-and-Excitation Networks, Jie Hu et al, CVPR 2018,  Momenta(中国无人驾驶公司，曹旭东创立) and Oxford University[(pdf)](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf)[(code)](https://github.com/hujie-frank/SENet)[(blog)](https://blog.csdn.net/wangkun1340378/article/details/79092001)
+* VGG, **Very Deep Convolutional NetWorks for Large-Scale Image Recognition**, Karen Simonyan et at., ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
+* Inception, **Going Deeper with Convolutions**, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+* ResNet, **Deep Residual Learning for Image Recognition**, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
+* SENet：Squeeze-and-Excitation Networks, Jie Hu et al, CVPR 2018,  Momenta(中国无人驾驶公司) and Oxford University[(pdf)](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf)[(code)](https://github.com/hujie-frank/SENet)[(blog)](https://blog.csdn.net/wangkun1340378/article/details/79092001)
 
 #### Detection
 - Weakly-supervised
@@ -122,47 +121,6 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 
 #### Segmentation
 * **Mask R-CNN**, Kaiming He et al, ICCV 2017(Best Paper), Facebook AI Research (FAIR)[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf)[(code)](https://github.com/matterport/Mask_RCNN)
-
-
-### Scene Text Detection and Recognition
-#### Overview
-- **Scene Text Detection and Recognition: The Deep Learning Era**, Shangbang Long et al, 2018, Megvii[(pdf)](https://arxiv.org/pdf/1811.04256.pdf)[(releated sources)](https://github.com/Jyouhou/SceneTextPapers)
-
-#### Scene Text Detection
-- Pipelines
-	- Multi Step
-		* Multi-Oriented Text Detection with Fully Convolutional Networks, Zheng Zhang et al, CVPR 2016, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Multi-Oriented_Text_Detection_CVPR_2016_paper.pdf)[(code)](https://github.com/stupidZZ/FCN_Text)[(blog)](https://www.cnblogs.com/lillylin/p/6102708.html)
-	- Simplified Pipeline
-		- Anchor Based
-			* TextBoxes, **TextBoxes: A Fast Text Detector with a Single Deep Neural Network**, Minghui Liao et al, AAAI 2017, HUST 白翔组[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewFile/14202/14295)[(code)](https://github.com/MhLiao/TextBoxes)[(blog)](https://www.cnblogs.com/lillylin/p/6204099.html)
-			* EAST, **EAST: An Efficient and Accurate Scene Text Detector**, Xinyu Zhou et al, CVPR 2017, Megvii 姚聪组[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_EAST_An_Efficient_CVPR_2017_paper.pdf)[(code)](https://github.com/argman/EAST)[(blog)](https://blog.csdn.net/sparkexpert/article/details/77987654)
-		- Region Proposal
-			* FEN, Feature Enhancement Network: A Refined Scene Text Detector, Sheng Zhang et al, AAAI 2018, South China University of Technology 金连文组[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16806/15981)
-- Predict Units
-	- Text-Line Level
-		* TextBoxes、EAST、FEN
-	- Sub-Text-Line Level
-		- Pixel Level
-			* SSTD, **Single Shot Text Detector with Regional Attention**, Pan He et al, ICCV 2017, Oxford 黄伟林组[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Single_Shot_Text_ICCV_2017_paper.pdf)[(code)](https://github.com/BestSonny/SSTD)
-		- Components Level(Word or Character Level)
-			* SegLink, **Detecting Oriented Text in Natural Images by Linking Segments**, Baoguang Shi et al, CVPR 2017, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shi_Detecting_Oriented_Text_CVPR_2017_paper.pdf)[(code)](https://github.com/bgshih/seglink)[(blog)](https://zhuanlan.zhihu.com/p/37781277)
-- Target
-	- Long Text
-		* SegLink
-	- Irregular Shapes
-		* TextSnake, TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes, Shangbang Long et al, ECCV 2018, PU 姚聪组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangbang_Long_TextSnake_A_Flexible_ECCV_2018_paper.pdf)
-
-#### Scene Text Recognition
-- Connectionist Temporal Classification
-	* CRNN, **An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition**, Baoguang Shi et al, TPAMI 2017, HUST 白翔组[(pdf)](https://arxiv.org/pdf/1507.05717.pdf)[(code)](https://github.com/bgshih/crnn)
-- Attention Mechanism
-	* R2AM, Recursive Recurrent Nets with Attention Modeling for OCR in the Wild, Chen-Yu Lee et al, CVPR 2016, UC San Diego[(pdf)](http://openaccess.thecvf.com/content_cvpr_2016/papers/Lee_Recursive_Recurrent_Nets_CVPR_2016_paper.pdf)
-	* Robust Scene Text Recognition with Automatic Rectification, Baoguang Shi et al, CVPR 2016, HUST 白翔组[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_Robust_Scene_Text_CVPR_2016_paper.pdf)
-
-#### End-to-End Scene Text Detection and Recognition
-* Deep TextSpotter, **Deep TextSpotter: An End-to-End Trainable Scene Text Localization and Recognition Framework**, Michal Busta et al, ICCV 2017, Czech Technical University[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/Busta_Deep_TextSpotter_An_ICCV_2017_paper.pdf)[(code)](https://github.com/MichalBusta/DeepTextSpotter)
-* See, **SEE: Towards Semi-Supervised End-to-End Scene Text Recognition**, Christian Bartz et al, AAAI 2018, Potsdam[(pdf)](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16270/16248)[(code)](https://github.com/Bartzi/see)
-* Mask TextSpotter, Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes, Pengyuan Lyu et al, HUST 白翔组[(pdf)](http://openaccess.thecvf.com/content_ECCV_2018/papers/Pengyuan_Lyu_Mask_TextSpotter_An_ECCV_2018_paper.pdf)
 
 
 ### Weakly Supervised Segmentation
