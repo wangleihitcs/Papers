@@ -10,7 +10,7 @@ Image Semantic Segmentation based on weakly supervised learning.
 ## MC MIL Loss
 $$(x_{l},y_{l})=\arg\max_{\forall(x,y)} \widehat{p}(x,y), \forall l\in L$$
 $$MILLoss=-\frac{1}{|L|} \sum\limits_{l \in L}{} \log{\widehat{p}(x,y)}$$
-$\widehat{p}(x,y)$ be the FCN output heatmaps($W*H*L$) for the $l^{th}$ class label at location $(x,y)$，$L$ is the class label num.
+$\widehat{p}(x,y)$ be the FCN output heatmaps($W \times H \times L$) for the $l^{th}$ class label at location $(x,y)$，$L$ is the class label num.
 
 ## Experiments
 ![experiments](./experiments.png)

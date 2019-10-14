@@ -17,13 +17,14 @@ For input image $I:3\times h \times w$, pass a backbone(i.e. Overfeat + Segmenta
 ![在这里插入图片描述](./framework2.png)
 $p_{i,j}(k)$ be the $Y$ for location $(i,j)$ and $k^{th}$ class label. ILP $p(k)$ be the $s$ by softmax.
 
-$$\widehat{y}_{i,j}=p_{i,j}(k|I) \times p(k|I)$$
+$$\widehat y_{i,j} = p_{i,j}(k|I) \times p(k|I)$$
 
-Finally, $\widehat{y}_{i,j}$ pass a interpolation to restore input image resolution. Then use a threshold(Smoothing Prior) to get the final segmentation results.
+Finally, $\widehat y_{i,j}$ pass a interpolation to restore input image resolution. Then use a threshold(Smoothing Prior) to get the final segmentation results.
+
 
 
 ## Log-Sum-Exp(LSE)
-$$s^k = \frac{1}{r}\log \left[ \frac{1}{h^o w^o} \sum\limits_{i.j} exp\left( r s_{i,j}^k \right)\right]$$
+$$s^k = \frac{1}{r}\log \left[ \frac{1}{h^o w^o} \sum\limits_{i,j} exp\left( r s_{i,j}^k \right)\right]$$
 LSE is a pooling method for $Y:(|C|+1) \times h^{o} \times  w^{o}$ to $s:(|C|+1) \times 1 \times  1$, it is more smooth. When $s$ is high LSE similar to max pooling, $r$ low LSE similar to average pooling.
 
 ![在这里插入图片描述](./experiments.png)
