@@ -130,11 +130,12 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 	* **Simple Does It: Weakly Supervised Instance and Semantic Segmentation**, Anna Khoreva et al., CVPR 2017, Max Planck Institute for Informatics[(pdf)](https://zpascal.net/cvpr2017/Khoreva_Simple_Does_It_CVPR_2017_paper.pdf)[(code)](https://datasets.d2.mpi-inf.mpg.de//khoreva_cvpr17_SimpleDoesIt/simple_does_it_code.zip)[(tf-code)](https://github.com/philferriere/tfwss)
 	* Box-driven Class-wise Region Masking and Filling Rate Guided Loss for Weakly Supervised Semantic Segmentation, Chunfeng Song et al, CVPR 2019, CASIA[(pdf)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Song_Box-Driven_Class-Wise_Region_Masking_and_Filling_Rate_Guided_Loss_for_CVPR_2019_paper.pdf)
 - Image Label Supervision
+	* FULLY CONVOLUTIONAL MULTI-CLASS MULTIPLE INSTANCE LEARNING, Deepak Pathak et al., ICLR 2015, UC Berkeley[(pdf)](https://arxiv.org/pdf/1412.7144.pdf)[(note)](./weakly%20supervised%20segmentation/class%20label%20supervision/MC-MIL-Loss/note.md)
+	* From Image-level to Pixel-level Labeling with Convolutional Networks, Pedro O. Pinheiro et.al., CVPR 2015, Idiap Research Institute, Martigny[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)[(note)](./weakly%20supervised%20segmentation/class%20label%20supervision/LSE/note.md)
 	* DSRG, Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing, Zilong Huang et al., CVPR 2018, HUST[(pdf)](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)[(code)](https://github.com/speedinghzl/DSRG)
 	* SSENet, Self-supervised Scale Equivariant Network for Weakly Supervised Semantic Segmentation, Yude Wang et al., 2019, CAS[(pdf)](https://arxiv.org/pdf/1909.03714.pdf)[(code)](https://github.com/YudeWang/SSENet-pytorch)
 - Others
 	* **DenseCRF**, Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials, Philipp Krahenbuhl et al., NIPS 2011, Stanford University[(pdf)](https://papers.nips.cc/paper/4296-efficient-inference-in-fully-connected-crfs-with-gaussian-edge-potentials.pdf)[(homepage)](https://web.archive.org/web/20161023180357/http://www.philkr.net/home/densecrf)[(code)](https://github.com/lucasb-eyer/pydensecrf)
-	* FULLY CONVOLUTIONAL MULTI-CLASS MULTIPLE INSTANCE LEARNING, Deepak Pathak et al., ICLR 2015, UC Berkeley[(pdf)](https://arxiv.org/pdf/1412.7144.pdf)[(note)](./weakly%20supervised%20segmentation/others/MC-MIL-Loss/note.md)
 - Good References
 	* [JackieZhangdx's WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
 
