@@ -26,7 +26,7 @@ Finally, $\widehat{y}_{i,j}$ pass a interpolation to restore input image resolut
 $$s^k = \frac{1}{r}\log \left[ \frac{1}{h^o w^o} \sum\limits_{i.j} exp\left( r s_{i,j}^k \right)\right]$$
 LSE is a pooling method for $Y:(|C|+1) \times h^{o} \times  w^{o}$ to $s:(|C|+1) \times 1 \times  1$, it is more smooth. When $s$ is high LSE similar to max pooling, $r$ low LSE similar to average pooling.
 
-![在这里插入图片描述](./experiments)
+![在这里插入图片描述](./experiments.png)
 For accuracy, performance be more high compare to max pooling and sum pooling.
 
 ## Summary
