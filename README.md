@@ -136,6 +136,7 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 	* SSENet, Self-supervised Scale Equivariant Network for Weakly Supervised Semantic Segmentation, Yude Wang et al., 2019, CAS[(pdf)](https://arxiv.org/pdf/1909.03714.pdf)[(code)](https://github.com/YudeWang/SSENet-pytorch)
 - Others
 	* **DenseCRF**, Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials, Philipp Krahenbuhl et al., NIPS 2011, Stanford University[(pdf)](https://papers.nips.cc/paper/4296-efficient-inference-in-fully-connected-crfs-with-gaussian-edge-potentials.pdf)[(homepage)](https://web.archive.org/web/20161023180357/http://www.philkr.net/home/densecrf)[(code)](https://github.com/lucasb-eyer/pydensecrf)
+	* A Comprehensive Analysis of Weakly-Supervised Semantic Segmentation in Different Image Domains, Lyndon Chan et al., 2019[(pdf)](https://arxiv.org/pdf/1912.11186.pdf)
 - Good References
 	* [JackieZhangdx's WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
 
