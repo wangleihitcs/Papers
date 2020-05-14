@@ -108,7 +108,7 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 - Anchor-based
 	* **SSD: Single Shot MultiBox Detector**, Wei Liu et al, ECCV 2016, UNC Chapel Hill[(pdf)](https://www.cs.unc.edu/~wliu/papers/ssd.pdf)[(code)](https://github.com/weiliu89/caffe/tree/ssd)[(blog)](https://blog.csdn.net/u010167269/article/details/52563573)
 	* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
-	* **FPN**, Feature Pyramid Networks for Object Detection, Tsung-Yi Lin et al., CVPR 2017, FAIR[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)
+	* **FPN**, Feature Pyramid Networks for Object Detection, Tsung-Yi Lin et al., CVPR 2017, FAIR[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)[(blog)](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
 
 - Anchor-free
 	* YOLO, **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)[(note)](./netural%20image%20tasks/detection/You%20Only%20Look%20Once-%20Unified%20Real-Time%20Object%20Detection/note.md)
