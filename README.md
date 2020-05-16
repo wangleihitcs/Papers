@@ -5,7 +5,8 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 - [Visual Question Answering](#Visual-Question-Answering)
 - [Medical Report Generation](#Medical-Report-Generation)
 - [Medical Image Processing](#Medical-Image-Processing)
-- [Natural Image Tasks](#Natural-Image-Tasks)
+- [Object Detection](#Object-Detection)
+- [Segmentation](#Segmentation)
 - [Weakly Supervised Segmentation](#Weakly-Supervised-Segmentation)
 - [Metrics](#Metrics)
 - [Others](#Others)
@@ -95,33 +96,29 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 	* U-Net: Convolutional Networks for Biomedical Image Segmentation, 2015 MICCAI
 	* A 3D Coarse-to-Fine Framework for Automatic Pancreas Segmentation
 
-### Natural Image Tasks
-#### Classification
-* VGG, **Very Deep Convolutional NetWorks for Large-Scale Image Recognition**, Karen Simonyan et at., ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
-* Inception, **Going Deeper with Convolutions**, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
-* ResNet, **Deep Residual Learning for Image Recognition**, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
-* SENet：Squeeze-and-Excitation Networks, Jie Hu et al, CVPR 2018,  Momenta(中国无人驾驶公司) and Oxford University[(pdf)](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf)[(code)](https://github.com/hujie-frank/SENet)[(blog)](https://blog.csdn.net/wangkun1340378/article/details/79092001)
+### Object-Detection
+#### Weakly-supervised
+* Learning Deep Features for Discriminative Localization, Bolei Zhou et al, CVPR 2016, MIT[(pdf)](https://arxiv.org/pdf/1512.04150.pdf)[(code)](https://github.com/metalbubble/CAM)[(note)](./netural%20image%20tasks/detection/Learning%20Deep%20Features%20for%20Discriminative%20Localization/note.md)
 
-#### Detection
-- Weakly-supervised
-	* Learning Deep Features for Discriminative Localization, Bolei Zhou et al, CVPR 2016, MIT[(pdf)](https://arxiv.org/pdf/1512.04150.pdf)[(code)](https://github.com/metalbubble/CAM)[(note)](./netural%20image%20tasks/detection/Learning%20Deep%20Features%20for%20Discriminative%20Localization/note.md)
+#### Anchor-based
+* **SSD: Single Shot MultiBox Detector**, Wei Liu et al, ECCV 2016, UNC Chapel Hill[(pdf)](https://www.cs.unc.edu/~wliu/papers/ssd.pdf)[(code)](https://github.com/weiliu89/caffe/tree/ssd)[(blog)](https://blog.csdn.net/u010167269/article/details/52563573)
+* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
+* **FPN**, Feature Pyramid Networks for Object Detection, Tsung-Yi Lin et al., CVPR 2017, FAIR[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)[(blog)](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
 
-- Anchor-based
-	* **SSD: Single Shot MultiBox Detector**, Wei Liu et al, ECCV 2016, UNC Chapel Hill[(pdf)](https://www.cs.unc.edu/~wliu/papers/ssd.pdf)[(code)](https://github.com/weiliu89/caffe/tree/ssd)[(blog)](https://blog.csdn.net/u010167269/article/details/52563573)
-	* YOLO9000- Better, Faster, Stronger, Joseph Redmon et al, CVPR 2017[(pdf)](http://web.eng.tau.ac.il/deep_learn/wp-content/uploads/2018/01/YOLO9000.pdf)[(project)](https://pjreddie.com/darknet/yolo/)[(code)](https://github.com/longcw/yolo2-pytorch)
-	* **FPN**, Feature Pyramid Networks for Object Detection, Tsung-Yi Lin et al., CVPR 2017, FAIR[(pdf)](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)[(blog)](https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
+#### Anchor-free
+* YOLO, **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)[(note)](./netural%20image%20tasks/detection/You%20Only%20Look%20Once-%20Unified%20Real-Time%20Object%20Detection/note.md)
+* CornerNet, **CornerNet: Detecting Objects as Paired Keypoints**, Hei Law et al, ECCV 2018, Michigan University[(pdf)](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf)[(code)](https://github.com/princeton-vl/CornerNet)[(blog)](http://www.deepsmart.ai/508.html)
+* FCOS, FCOS: Fully Convolutional One-Stage Object Detection, Zhi Tian et al, ICCV 2019, Adelaide University[(pdf)](https://arxiv.org/pdf/1904.01355.pdf)[(code)](https://github.com/tianzhi0549/FCOS/)[(blog)](https://blog.csdn.net/qiu931110/article/details/89073244)
+* CenterNet, **Objects as Points**, Xingyi Zhou et al, 2019, UT Austin[(pdf)](https://arxiv.org/pdf/1904.07850.pdf)[(code)](https://github.com/xingyizhou/CenterNet)
 
-- Anchor-free
-	* YOLO, **You Only Look Once- Unified, Real-Time Object Detection**, Joseph Redmon et al, CVPR 2016[(pdf)](https://pjreddie.com/media/files/papers/yolo.pdf)[(note)](./netural%20image%20tasks/detection/You%20Only%20Look%20Once-%20Unified%20Real-Time%20Object%20Detection/note.md)
-	* CornerNet, **CornerNet: Detecting Objects as Paired Keypoints**, Hei Law et al, ECCV 2018, Michigan University[(pdf)](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf)[(code)](https://github.com/princeton-vl/CornerNet)[(blog)](http://www.deepsmart.ai/508.html)
-	* FCOS, FCOS: Fully Convolutional One-Stage Object Detection, Zhi Tian et al, ICCV 2019, Adelaide University[(pdf)](https://arxiv.org/pdf/1904.01355.pdf)[(code)](https://github.com/tianzhi0549/FCOS/)[(blog)](https://blog.csdn.net/qiu931110/article/details/89073244)
-	* CenterNet, **Objects as Points**, Xingyi Zhou et al, 2019, UT Austin[(pdf)](https://arxiv.org/pdf/1904.07850.pdf)[(code)](https://github.com/xingyizhou/CenterNet)
-
-- Others
-	* Bag of Freebies for Training Object Detection Neural Networks, Zhi Zhang et al, 2019, Amazon 李沐[(pdf)](https://arxiv.org/pdf/1902.04103.pdf)
-	* **Deformable Convolutional Networks**, Jifeng Dai et al, ICCV 2017, Microsoft Research Asia[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)[(code)](https://github.com/msracver/Deformable-ConvNets)
+#### Others
+* Bag of Freebies for Training Object Detection Neural Networks, Zhi Zhang et al, 2019, Amazon 李沐[(pdf)](https://arxiv.org/pdf/1902.04103.pdf)
+* **Deformable Convolutional Networks**, Jifeng Dai et al, ICCV 2017, Microsoft Research Asia[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf)[(code)](https://github.com/msracver/Deformable-ConvNets)
 
 #### Segmentation
+#### Semantic Segmention
+
+#### Instance Segmentation
 * **Mask R-CNN**, Kaiming He et al, ICCV 2017(Best Paper), Facebook AI Research (FAIR)[(pdf)](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf)[(code)](https://github.com/matterport/Mask_RCNN)
 
 
@@ -160,3 +157,9 @@ Combine CV with NLP tasks，focus on Medical Report Generation、Image/Video Cap
 - Teacher Forcing Policy
 	* A learning algorithm for continually running fully recurrent neural networks, Ronald et al, Neural Computation 1989[(pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9724&rep=rep1&type=pdf)[(node)](https://blog.csdn.net/wl1710582732/article/details/88636852)
 	* Professor Forcing: A New Algorithm for Training Recurrent Networks, Alex Lamb et al, NIPS 2016[(pdf)](https://arxiv.org/pdf/1610.09038.pdf)
+
+#### Classification
+* VGG, **Very Deep Convolutional NetWorks for Large-Scale Image Recognition**, Karen Simonyan et at., ICLR 2015[(pdf)](https://arxiv.org/pdf/1409.1556.pdf)
+* Inception, **Going Deeper with Convolutions**, Christian Szegedy et al, CVPR 2015, Google[(pdf)](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+* ResNet, **Deep Residual Learning for Image Recognition**, Kaiming He et al, CVPR 2016, Microsoft Research[(pdf)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)[(code)](https://github.com/KaimingHe/deep-residual-networks)[(blog)](https://blog.csdn.net/wspba/article/details/56019373)
+* SENet：Squeeze-and-Excitation Networks, Jie Hu et al, CVPR 2018,  Momenta(中国无人驾驶公司) and Oxford University[(pdf)](https://www.robots.ox.ac.uk/~vgg/publications/2018/Hu18/hu18.pdf)[(code)](https://github.com/hujie-frank/SENet)[(blog)](https://blog.csdn.net/wangkun1340378/article/details/79092001)
